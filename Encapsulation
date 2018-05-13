@@ -1,0 +1,26 @@
+What is Encapsulation?
+The modern world depends on a concept called "abstraction" that separates how to use something from the details of how it’s implemented. 
+You can press the brake pedal of a car and stop effectively without knowing anything about disc brakes, calipers, hydraulics, or 
+frictional coefficients – thank goodness!
+
+In object oriented programming this separation of how to use code from its implementation details becomes important in 
+facilitating relationships between code entities. 
+Imagine you are writing an object that a coworker is going to build off of in their code, 
+it would take forever if everyone had to understand every single line in the code base just to be able to use eachother's work! 
+Instead you want to clearly separate the code in your object that other code will use from the intricate details of how you maintain
+your object.
+
+The way that you define this separation is by "hiding" implementation details from view with something called "encapsulation". 
+Encapsulation, or information hiding, was perhaps the first major step forward when Object Oriented programming emerged in the 1980s, 
+allowing one team to use the products of another team without having to understand how it worked internally.
+
+Encapsulation also allows you to strictly control how a user interacts with your object. 
+By hiding all the inner workings of your object from the user you can guarantee that your object stays in a good state.
+
+For example, you can hide your fields from the user so that you are the only one who can set their values. 
+This can prevent your user from accidentally setting field values that don't make sense.
+
+Just imagine if you didn't have a brake pedal and everyone driving was expected to know how to apply pressure to the disk breaks,
+chances are a lot of people would ruin their cars! 
+By hiding the inner workings of the car with the casing and providing a clear way to interact with the brakes (the pedal) 
+you help keep the car in working order.
