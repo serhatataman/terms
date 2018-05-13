@@ -1,0 +1,21 @@
+Parts of an Object Definition
+
+State
+The state of an object is defined by the collection of instance variables who's scope is that of the entire object. 
+We call these "fields". This collection of variables holds all the data associated with an object instance. 
+Together, they represent the state of an object, everything that distinguishes it from other objects of the same type, 
+or from itself at different points in time. 
+If you created another object with exactly the same state, it would behave identically, but still be considered a separate object. 
+That is because each time you make a new object you create a space for it in memory, 
+so even if that memory stores the same values they are still distinct allocations of data.
+
+Constructors
+Constructors are a special type of method that is invoked by the "new" operator. 
+This is what creates and initialize instances of the object and typically sets the initial value for all the fields.
+
+Behavior
+The behavior of an object is dictated by what methods you define in the object class. 
+These methods represent the things a client class can do with an objects of this type. 
+These methods typically modify the state, but they can also interact other classes 
+or with the user like a Scanner or a PrintStream does. (System.out is actually an object of the PrintStream class.)
+
