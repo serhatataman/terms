@@ -6,6 +6,8 @@
 3) Primitives are stored directly in memory, so when you copy a primitive variable the value is copied, leaving the original variable unaffected. This is called value semantics.
 4) Since objects are more complicated Java doesn't store their data directly in memory with the variable name, instead it creates a special space in memory for the data and then stores the address of that location in the variable. This means that any variable holding an object (like an array) actually stores a reference to the object. Therefore, when you make a copy of an object variable, you copy the reference, which still points at the original data. This is called reference semantics
 
+5) An object is combination of "state" and "behaviour". (for example; state=variables, behaviour=methods)
+
 *Primitives vs Objects
 In Java there are two general types of data: primitives and Objects
 
