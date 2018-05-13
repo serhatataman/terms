@@ -2,7 +2,8 @@ Parts of an Object Definition
 
 State
 The state of an object is defined by the collection of instance variables who's scope is that of the entire object. 
-We call these "fields". This collection of variables holds all the data associated with an object instance. 
+We call these "fields". (where we put primitives; int, double, char etc.) 
+This collection of variables holds all the data associated with an object instance. 
 Together, they represent the state of an object, everything that distinguishes it from other objects of the same type, 
 or from itself at different points in time. 
 If you created another object with exactly the same state, it would behave identically, but still be considered a separate object. 
